@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Tee">
+  <grid id="cbd77" binding="contentPane" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="13" y="4" width="550" height="1026"/>
+    </constraints>
+    <properties/>
+    <border type="none" title="Площадь тройников" title-justification="2" title-position="1">
+      <font name="Tahoma" style="3"/>
+      <title-color color="-13215616"/>
+    </border>
+    <children>
+      <scrollpane id="db2c9" binding="TeeScrollPane">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="df83" binding="TeePanel" layout-manager="GridLayoutManager" row-count="28" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="56db6" class="javax.swing.JTextField" binding="teeSqSqA">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="e36b1" class="javax.swing.JTextField" binding="teeSqSqB">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="f4940" class="javax.swing.JTextField" binding="teeSqSqA1">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="7" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="345c1" class="javax.swing.JTextField" binding="teeSqSqQuantity">
+                <constraints>
+                  <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="17e84" class="javax.swing.JTextField" binding="teeRRD">
+                <constraints>
+                  <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="20"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="715ef" class="javax.swing.JTextField" binding="teeRRL1">
+                <constraints>
+                  <grid row="11" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="19"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="8cda3" class="javax.swing.JTextField" binding="teeRRQuantity">
+                <constraints>
+                  <grid row="12" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="5a8ab" class="javax.swing.JTextField">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <font name="Tahoma" style="3"/>
+                  <horizontalAlignment value="0"/>
+                  <text value="Высота B, мм "/>
+                </properties>
+              </component>
+              <component id="53245" class="javax.swing.JTextField">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <font name="Tahoma" style="3"/>
+                  <horizontalAlignment value="0"/>
+                  <text value="Ширина А1, мм"/>
+                </properties>
+              </component>
+              <component id="fd5d9" class="javax.swing.JTextField" default-binding="true">
+                <constraints>
+                  <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <font name="Tahoma" style="3"/>
+                  <horizontalAlignment value="0"/>
+                  <text value="Количество"/>
+                </properties>
+              </component>
+              <component id="86aa4" class="javax.swing.JTextField" default-binding="true">
+                <constraints>
+                  <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="20"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <font name="Tahoma" style="3"/>
+                  <horizontalAlignment value="0"/>
+                  <text value="Диаметр D, мм"/>
+                </properties>
+              </component>
+              <component id="b7efd" class="javax.swing.JTextField" default-binding="true">
+                <constraints>
+                  <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="19"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <font name="Tahoma" style="3"/>
+                  <horizontalAlignment value="0"/>
+                  <text value="Длина L1, мм"/>
+                </properties>
+              </component>
+              <component id="41776" class="javax.swing.JTextField" default-binding="true">
+                <constraints>
+                  <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <font name="Tahoma" style="3"/>
+                  <horizontalAlignment value="0"/>
+                  <text value="Количество"/>
+                </properties>
+              </component>
+              <component id="62dab" class="javax.swing.JTextField" default-binding="true">
+                <constraints>
+                  <grid row="14" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="20"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <font name="Tahoma" style="3"/>
+                  <horizontalAlignment value="0"/>
+                  <text value="Диаметр D, мм"/>
+                </properties>
+              </component>
+              <component id="adac3" class="javax.swing.JTextField" binding="teeSqRdD">
+                <constraints>
+                  <grid row="14" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="20"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="21375" class="javax.swing.JTextField" default-binding="true">
+                <constraints>
+                  <grid row="18" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="19"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <font name="Tahoma" style="3"/>
+                  <horizontalAlignment value="0"/>
+                  <text value="Длина L1, мм"/>
+                </properties>
+              </component>
+              <component id="9128b" class="javax.swing.JTextField" binding="teeSqRL1">
+                <constraints>
+                  <grid row="18" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="19"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="52b7" class="javax.swing.JTextField" default-binding="true">
+                <constraints>
+                  <grid row="19" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <font name="Tahoma" style="3"/>
+                  <horizontalAlignment value="0"/>
+                  <text value="Количество"/>
+                </properties>
+              </component>
+              <component id="56eb9" class="javax.swing.JTextField" binding="teeSqRQuantity">
+                <constraints>
+                  <grid row="19" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="19"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="a8034" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="14" column="0" row-span="7" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <icon value="img/tee_incut_correction.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="398e" class="javax.swing.JTextField">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <font name="Tahoma" style="3"/>
+                  <horizontalAlignment value="0"/>
+                  <text value="Ширина A, мм"/>
+                </properties>
+              </component>
+              <component id="c132e" class="javax.swing.JTextField" default-binding="true">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <font name="Tahoma" style="3"/>
+                  <horizontalAlignment value="0"/>
+                  <text value="Высота В1, мм"/>
+                </properties>
+              </component>
+              <component id="579e0" class="javax.swing.JTextField" binding="teeSqSqB1">
+                <constraints>
+                  <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="8c373" class="javax.swing.JTextField" default-binding="true">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <font name="Tahoma" style="3"/>
+                  <horizontalAlignment value="0"/>
+                  <text value="Длина L, мм"/>
+                </properties>
+              </component>
+              <component id="bd969" class="javax.swing.JTextField" binding="teeSqSqL">
+                <constraints>
+                  <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="d5a06" class="javax.swing.JTextField" default-binding="true">
+                <constraints>
+                  <grid row="17" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="20"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <font name="Tahoma" style="3"/>
+                  <horizontalAlignment value="0"/>
+                  <text value="Длина L, мм"/>
+                </properties>
+              </component>
+              <component id="39a8f" class="javax.swing.JTextField" binding="teeSqRL">
+                <constraints>
+                  <grid row="17" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="20"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="96de8" class="javax.swing.JTextField" default-binding="true">
+                <constraints>
+                  <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <font name="Tahoma" style="3"/>
+                  <horizontalAlignment value="0"/>
+                  <text value="Диаметр D1, мм"/>
+                </properties>
+              </component>
+              <component id="64a0c" class="javax.swing.JTextField" binding="teeRRD1">
+                <constraints>
+                  <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="9ad6f" class="javax.swing.JTextField" default-binding="true">
+                <constraints>
+                  <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <font name="Tahoma" style="3"/>
+                  <horizontalAlignment value="0"/>
+                  <text value="Длина L, мм"/>
+                </properties>
+              </component>
+              <component id="70d91" class="javax.swing.JTextField" binding="teeRRL">
+                <constraints>
+                  <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="1262d" class="javax.swing.JTextField" default-binding="true">
+                <constraints>
+                  <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <font name="Tahoma" style="3"/>
+                  <horizontalAlignment value="0"/>
+                  <text value="Длина L1, мм"/>
+                </properties>
+              </component>
+              <component id="456eb" class="javax.swing.JTextField" binding="teeSqSqL1">
+                <constraints>
+                  <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="1c165" class="javax.swing.JTextField" default-binding="true">
+                <constraints>
+                  <grid row="15" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <font name="Tahoma" style="3"/>
+                  <horizontalAlignment value="0"/>
+                  <text value="Ширина A, мм"/>
+                </properties>
+              </component>
+              <component id="5709e" class="javax.swing.JTextField" binding="teeSqRA">
+                <constraints>
+                  <grid row="15" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="d986b" class="javax.swing.JTextField" default-binding="true">
+                <constraints>
+                  <grid row="16" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <font name="Tahoma" style="3"/>
+                  <horizontalAlignment value="0"/>
+                  <text value="Высота B, мм "/>
+                </properties>
+              </component>
+              <component id="73ce4" class="javax.swing.JTextField" binding="teeSqRB">
+                <constraints>
+                  <grid row="16" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="77ad4" class="javax.swing.JTextField" default-binding="true">
+                <constraints>
+                  <grid row="26" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <font name="Tahoma" style="3"/>
+                  <horizontalAlignment value="0"/>
+                  <text value="Количество"/>
+                </properties>
+              </component>
+              <component id="cbb55" class="javax.swing.JTextField" default-binding="true">
+                <constraints>
+                  <grid row="25" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <font name="Tahoma" style="3"/>
+                  <horizontalAlignment value="0"/>
+                  <text value="Длина L1, мм"/>
+                </properties>
+              </component>
+              <component id="bea50" class="javax.swing.JTextField" binding="teeRSqL1">
+                <constraints>
+                  <grid row="25" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="cd70a" class="javax.swing.JTextField" default-binding="true">
+                <constraints>
+                  <grid row="21" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="20"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <font name="Tahoma" style="3"/>
+                  <horizontalAlignment value="0"/>
+                  <text value="Ширина A, мм"/>
+                </properties>
+              </component>
+              <component id="34b10" class="javax.swing.JTextField" binding="teeRSqA">
+                <constraints>
+                  <grid row="21" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="20"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="70d2" class="javax.swing.JTextField" default-binding="true">
+                <constraints>
+                  <grid row="22" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <font name="Tahoma" style="3"/>
+                  <horizontalAlignment value="0"/>
+                  <text value="Высота B, мм "/>
+                </properties>
+              </component>
+              <component id="9ba31" class="javax.swing.JTextField" binding="teeRSqB">
+                <constraints>
+                  <grid row="22" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="4df70" class="javax.swing.JTextField" default-binding="true">
+                <constraints>
+                  <grid row="24" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <font name="Tahoma" style="3"/>
+                  <horizontalAlignment value="0"/>
+                  <text value="Длина L, мм"/>
+                </properties>
+              </component>
+              <component id="1c999" class="javax.swing.JTextField" binding="teeRSqL">
+                <constraints>
+                  <grid row="24" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="543c9" class="javax.swing.JTextField" default-binding="true">
+                <constraints>
+                  <grid row="23" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <font name="Tahoma" style="3"/>
+                  <horizontalAlignment value="0"/>
+                  <text value="Диаметр D, мм"/>
+                </properties>
+              </component>
+              <component id="2617d" class="javax.swing.JTextField" binding="teeRSqD">
+                <constraints>
+                  <grid row="23" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="c3c10" class="javax.swing.JTextField" binding="teeRSqQuantity">
+                <constraints>
+                  <grid row="26" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="c87a9" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="8" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <icon value="img/tee_output_rectangular_rectangular_correction.png"/>
+                  <labelFor value="c3c10"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="464cf" class="javax.swing.JButton" binding="Button1">
+                <constraints>
+                  <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Рассчитать"/>
+                </properties>
+              </component>
+              <component id="e08f6" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+                <constraints>
+                  <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <font name="Tahoma" style="3"/>
+                  <horizontalAlignment value="0"/>
+                </properties>
+              </component>
+              <component id="e4fde" class="javax.swing.JButton" binding="Button2">
+                <constraints>
+                  <grid row="13" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Рассчитать"/>
+                </properties>
+              </component>
+              <component id="a0902" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+                <constraints>
+                  <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <font name="Tahoma" style="3"/>
+                  <horizontalAlignment value="0"/>
+                </properties>
+              </component>
+              <component id="81717" class="javax.swing.JButton" binding="Button3">
+                <constraints>
+                  <grid row="20" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Рассчитать"/>
+                </properties>
+              </component>
+              <component id="81987" class="javax.swing.JTextField" binding="textField3">
+                <constraints>
+                  <grid row="20" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <font name="Tahoma" style="3"/>
+                  <horizontalAlignment value="0"/>
+                </properties>
+              </component>
+              <component id="10ec2" class="javax.swing.JButton" binding="Button4">
+                <constraints>
+                  <grid row="27" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Рассчитать"/>
+                </properties>
+              </component>
+              <component id="a8358" class="javax.swing.JTextField" binding="textField4">
+                <constraints>
+                  <grid row="27" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <font name="Tahoma" style="3"/>
+                  <horizontalAlignment value="0"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="f03ef" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="8" column="0" row-span="6" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <icon value="img/tee_output_round_round_correction.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="8ac92" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="21" column="0" row-span="7" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <icon value="img/tee_output_rectangular_round_correction.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>
