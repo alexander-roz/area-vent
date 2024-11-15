@@ -118,7 +118,7 @@
                 </constraints>
                 <properties>
                   <font name="Tahoma" style="3"/>
-                  <text value="Утка"/>
+                  <text value="Со смещением"/>
                 </properties>
               </component>
               <component id="73427" class="javax.swing.JButton" binding="inset">
