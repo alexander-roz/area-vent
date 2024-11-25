@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="AreaVent:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/AreaVent_jar</output-path>
+    <root id="archive" name="AreaVent.jar">
+      <element id="module-output" name="AreaVent" />
+    </root>
+  </artifact>
+</component>
